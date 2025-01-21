@@ -4,7 +4,7 @@ import (
 	"gorm.io/gorm"
 )
 
-type Oeening struct {
+type Opening struct {
 	gorm.Model
 	Role     string
 	Company  string
